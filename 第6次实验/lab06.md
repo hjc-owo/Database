@@ -20,7 +20,7 @@ alter table D
     modify id int;
 ```
 
-![截屏2022-04-29 19.04.50](https://cdn.jsdelivr.net/gh/hjc-owo/allImgs/img/202204291906605.png)
+![截屏2022-04-29 19.04.50](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io/img/202204291906605.png)
 
 ### Q1
 
@@ -47,7 +47,7 @@ where id > 2000000;
 # 6s 314ms
 ```
 
-![截屏2022-04-29 18.36.38](https://cdn.jsdelivr.net/gh/hjc-owo/allImgs/img/202204291837541.png)
+![截屏2022-04-29 18.36.38](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io/img/202204291837541.png)
 
 ### Q2
 
@@ -73,7 +73,7 @@ where hashNumber > 5;
 # 4s 292ms
 ```
 
-![截屏2022-04-29 18.42.09](https://cdn.jsdelivr.net/gh/hjc-owo/allImgs/img/202204291843759.png)
+![截屏2022-04-29 18.42.09](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io/img/202204291843759.png)
 
 ### Q3
 
@@ -107,7 +107,7 @@ where id > 2000000
 # 2s 727ms
 ```
 
-![截屏2022-04-29 18.43.46](https://cdn.jsdelivr.net/gh/hjc-owo/allImgs/img/202204291845158.png)
+![截屏2022-04-29 18.43.46](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io/img/202204291845158.png)
 
 ### Q4
 
@@ -136,7 +136,7 @@ addD() # 16s 257ms
 # 由于 D 添加元素的时候不需要设置索引，所以更快。
 ```
 
-![截屏2022-04-29 18.56.04](https://cdn.jsdelivr.net/gh/hjc-owo/allImgs/img/202204291857519.png)
+![截屏2022-04-29 18.56.04](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io/img/202204291857519.png)
 
 ## TASK 2
 
@@ -168,7 +168,7 @@ create table sells
 );
 ```
 
-![截屏2022-04-29 11.04.45](https://cdn.jsdelivr.net/gh/hjc-owo/allImgs/img/202204291105824.png)
+![截屏2022-04-29 11.04.45](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io/img/202204291105824.png)
 
 ### 2 插入新的购买记录时
 
@@ -244,4 +244,4 @@ where fid = 2 and cid = 1;
 select * from customer where cid = 1; # normal
 ```
 
-![截屏2022-04-29 13.32.20](https://cdn.jsdelivr.net/gh/hjc-owo/allImgs/img/202204291332720.png)
+![截屏2022-04-29 13.32.20](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io/img/202204291332720.png)
