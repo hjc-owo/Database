@@ -67,7 +67,7 @@ select checkPassword('qwerty', '123456', '654321', 2); # 1
 select checkPassword('qwerty', '123456', '654321', 1); # 0
 ```
 
-![截屏2022-04-22 14.17.54](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io/img/202204221418808.png)
+![截屏2022-04-22 14.17.54](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io@img/202204221418808.png)
 
 游标：
 
@@ -112,7 +112,7 @@ select checkPassword('qwerty', '123456', '654321', 2); # 1
 select checkPassword('qwerty', '123456', '654321', 1); # 0
 ```
 
-![截屏2022-04-22 14.19.04](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io/img/202204221419390.png)
+![截屏2022-04-22 14.19.04](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io@img/202204221419390.png)
 
 ### 1-2
 
@@ -165,7 +165,7 @@ select borrow('qwerty', '1234567890'); # 1
 select borrow('qwerty', '1234567890'); # 0
 ```
 
-![截屏2022-04-22 14.17.12](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io/img/202204221417331.png)
+![截屏2022-04-22 14.17.12](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io@img/202204221417331.png)
 
 ### 1-3
 
@@ -206,7 +206,7 @@ select returnBook('qwerty', '1234567890'); # 1
 select returnBook('qwerty', '1234567890'); # 0
 ```
 
-![截屏2022-04-22 14.30.36](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io/img/202204221433585.png)
+![截屏2022-04-22 14.30.36](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io@img/202204221433585.png)
 
 ### 1-4
 
@@ -221,7 +221,7 @@ end;
 call searchLog('qwerty');
 ```
 
-![截屏2022-04-22 14.38.21](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io/img/202204221438384.png)
+![截屏2022-04-22 14.38.21](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io@img/202204221438384.png)
 
 ## TASK 2
 
@@ -240,7 +240,7 @@ begin
 end;
 ```
 
-![截屏2022-04-22 14.49.22](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io/img/202204221449950.png)
+![截屏2022-04-22 14.49.22](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io@img/202204221449950.png)
 
 ### 2-2
 
@@ -259,4 +259,4 @@ end;
 call addLog(4000000);
 ```
 
-![截屏2022-04-22 14.59.14](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io/img/202204221459023.png)
+![截屏2022-04-22 14.59.14](https://cdn.jsdelivr.net/gh/hjc-owo/hjc-owo.github.io@img/202204221459023.png)
