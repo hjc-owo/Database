@@ -1,4 +1,4 @@
-# Database_BUAA_2022_Spring
+# Database
 
 这是2022春花叶小姐姐的北航21系数据管理技术作业和上机实验。
 
